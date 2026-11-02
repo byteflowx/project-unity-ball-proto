@@ -1,0 +1,22 @@
+{
+    "name": "Composition",
+    "rootNamespace": "",
+    "references": [
+        "AppFlow",
+        "Core",
+        "Engine",
+        "Game",
+        "UI",
+        "UniTask",
+        "VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

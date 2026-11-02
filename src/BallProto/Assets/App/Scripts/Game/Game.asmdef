@@ -1,0 +1,23 @@
+{
+    "name": "Game",
+    "rootNamespace": "App.Scripts.Game",
+    "references": [
+        "Core",
+        "Engine",
+        "UI",
+        "UniTask",
+        "Unity.Addressables",
+        "Unity.Cinemachine",
+        "Unity.InputSystem",
+        "VContainer"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,9 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="gameContainer" picking-mode="Ignore" class="screen game">
+        <ui:Label name="gameHint" picking-mode="Ignore" text="Hold to charge, release to shoot" class="game__hint"/>
+        <ui:VisualElement name="gameResult" class="game__result">
+            <ui:Label name="gameTitle" class="game__title"/>
+            <App.Scripts.UI.Toolkit.Controls.RoundedButton name="gameRetryBtn" text="Retry" class="rounded-btn rounded-btn--full-width game__retry"/>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

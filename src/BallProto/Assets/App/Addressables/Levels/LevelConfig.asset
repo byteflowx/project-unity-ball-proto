@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04eaf8f28d6e2405bbcd8c80116c4085, type: 3}
+  m_Name: LevelConfig
+  m_EditorClassIdentifier: Game::App.Scripts.Game.LevelConfig
+  <StartRadius>k__BackingField: 1.2
+  <CriticalRadius>k__BackingField: 0.5
+  <ChargePerSecond>k__BackingField: 0.32
+  <MinShotMass>k__BackingField: 0.06
+  <PathMargin>k__BackingField: 0.1
+  <Standoff>k__BackingField: 1.2
+  <PowerScale>k__BackingField: 11
+  <PowerExponent>k__BackingField: 0.75
+  <HopReference>k__BackingField: 1.2
+  <MaxHop>k__BackingField: 3
+  <DoorPosition>k__BackingField: {x: 8, y: 24}
+  <Seed>k__BackingField: 7
+  <ObstacleRadius>k__BackingField: 0.4
+  <Spacing>k__BackingField: 1.15
+  <TightSpacing>k__BackingField: 0.95
+  <HalfWidth>k__BackingField: 11
+  <FreeStart>k__BackingField: 4
+  <FreeDoor>k__BackingField: 4.5
+  <PadBehindDoor>k__BackingField: 14
+  <TightZones>k__BackingField:
+  - {x: 15, y: 21}
+  <Clearings>k__BackingField:
+  - {x: 10, y: 14.5}
+  <ClearingHalfWidth>k__BackingField: 3
+  <Loners>k__BackingField:
+  - {x: 11.2, y: 0.15}
+  - {x: 13.4, y: -0.3}
+  <DoorOpenDistance>k__BackingField: 5

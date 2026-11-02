@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcac89be112674f2497d5629bd8b1abc, type: 3}
+  m_Name: GameDoor
+  m_EditorClassIdentifier: Engine::App.Scripts.Engine.Audio.Sound
+  _clip: {fileID: 8300000, guid: b3e93365f7cd84ef59bf48584b91100d, type: 3}
+  _volume: 0.7
+  _pitch: 1
+  _volumeVariation: 0
+  _pitchVariation: 0

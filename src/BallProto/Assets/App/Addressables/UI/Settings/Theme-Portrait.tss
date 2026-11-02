@@ -1,0 +1,8 @@
+@import url("unity-theme://default");
+
+@import url("/Assets/App/Addressables/UI/Uss/Variables.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Core/Layout.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Core/Transitions.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Screens/GameScreen.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Components/Loader.uss");
+@import url("/Assets/App/Addressables/UI/Uss/Components/RoundedButton.uss");

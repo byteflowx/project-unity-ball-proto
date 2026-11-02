@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d36c8cdfdd9574402b947293696bce37, type: 3}
+  m_Name: AudioLibrary
+  m_EditorClassIdentifier: Engine::App.Scripts.Engine.Audio.AudioLibrary
+  _sounds:
+  - key: ButtonClick
+    value: {fileID: 11400000, guid: 2e3e6559bbc4e460cb78f093cb3232c4, type: 2}
+  - key: GameShoot
+    value: {fileID: 11400000, guid: 20397905973354f15b285e440e4c2fe1, type: 2}
+  - key: GamePop
+    value: {fileID: 11400000, guid: 06836469db51a44339867aaa71134b73, type: 2}
+  - key: GameHop
+    value: {fileID: 11400000, guid: acb97cf8ff5be43f8a1109bcaa9a5999, type: 2}
+  - key: GameDoor
+    value: {fileID: 11400000, guid: b94266db33b6a4b2d8340044048554c0, type: 2}
+  - key: GameWin
+    value: {fileID: 11400000, guid: 000225da8d9934c018c736f8b694f8ff, type: 2}
+  - key: GameLose
+    value: {fileID: 11400000, guid: 73920d546d8474194a872d53e44558db, type: 2}
+  - key: GameCharge
+    value: {fileID: 11400000, guid: 4095e3e627c274ab7bc93e6cedded85b, type: 2}

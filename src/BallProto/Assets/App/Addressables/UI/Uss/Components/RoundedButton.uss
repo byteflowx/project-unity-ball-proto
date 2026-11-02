@@ -1,0 +1,50 @@
+.rounded-btn {
+    height: var(--size-button-height);
+    min-width: var(--size-button-min-width);
+    padding-left: var(--space-2xl);
+    padding-right: var(--space-2xl);
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    transition-property: scale;
+    transition-duration: var(--transition-fast);
+    transition-timing-function: ease-out;
+    --rounded-button-bg: var(--color-primary);
+    --rounded-button-shadow: var(--color-primary-dark);
+
+    background-color: var(--rounded-button-bg);
+    border-radius: var(--radius-lg);
+    border-bottom-width: var(--border-width-xl);
+    border-bottom-color: var(--rounded-button-shadow);
+}
+
+.rounded-btn--pressed {
+    scale: var(--scale-press) var(--scale-press);
+}
+
+.rounded-btn:disabled {
+    opacity: 1;
+    --rounded-button-bg: var(--color-surface-elevated);
+    --rounded-button-shadow: var(--color-border);
+    border-width: var(--border-width-sm);
+    border-bottom-width: var(--border-width-xl);
+    border-color: var(--color-border);
+    border-bottom-color: var(--color-border);
+}
+
+.rounded-btn__label {
+    font-size: var(--font-lg);
+    -unity-font-definition: var(--font-bold);
+    color: var(--color-text);
+    -unity-text-align: middle-center;
+}
+
+.rounded-btn:disabled > .rounded-btn__label {
+    color: var(--color-text-tertiary);
+}
+
+.rounded-btn--full-width {
+    width: 100%;
+}

@@ -1,0 +1,17 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root" picking-mode="Ignore" class="root">
+        <ui:VisualElement name="screensContainer" picking-mode="Ignore" class="screens-container">
+            <App.Scripts.UI.Toolkit.Controls.SafeArea name="screensSafeArea" picking-mode="Ignore">
+                <ui:VisualElement name="screensContent" picking-mode="Ignore" class="screens-content"/>
+            </App.Scripts.UI.Toolkit.Controls.SafeArea>
+        </ui:VisualElement>
+        <ui:VisualElement name="loaderContainer" picking-mode="Ignore" class="loader loader--hidden">
+            <ui:VisualElement name="loaderOverlay" class="loader-overlay"/>
+            <App.Scripts.UI.Toolkit.Controls.SafeArea name="loaderSafeArea">
+                <ui:VisualElement name="loaderContent" class="loader__content">
+                    <ui:VisualElement name="loaderSpinner" class="loader__spinner"/>
+                </ui:VisualElement>
+            </App.Scripts.UI.Toolkit.Controls.SafeArea>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

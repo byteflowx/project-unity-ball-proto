@@ -1,0 +1,8 @@
+<linker>
+  <assembly fullname="AppFlow" preserve="all" />
+  <assembly fullname="Composition" preserve="all" />
+  <assembly fullname="Core" preserve="all" />
+  <assembly fullname="Engine" preserve="all" />
+  <assembly fullname="Game" preserve="all" />
+  <assembly fullname="UI" preserve="all" />
+</linker>
